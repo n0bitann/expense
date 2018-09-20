@@ -35,8 +35,6 @@ public class Controller {
     private ListView<String> transactionList = new ListView<>();
 
 
-
-
     public void spendButtonHandler(ActionEvent actionEvent){
 
         if((moneyField.getText() != null)){

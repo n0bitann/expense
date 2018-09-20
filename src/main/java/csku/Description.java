@@ -17,11 +17,17 @@ public class Description {
         this.type = type;
     }
 
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
 
-
-
-
+    public void setType(String type) {
+        this.type = type;
+    }
 
     @Override
     public String toString() {
